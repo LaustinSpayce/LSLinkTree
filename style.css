@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
+@font-face {
+    font-family: 'Quicksilver';
+    src:  url('quicksilver.woff2') format('woff2'),
+  }
+
 :root {
     --bgColor: #223344;
     --bgColor2: #090a0f;
@@ -33,13 +38,22 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
+#firstWord {
+    color: #EAE2B7;
+}
+
+#secondWord {
+    color: #F77F00;
+}
+
 #userName {
     color: var(--accentColor);
-    font-size: 1rem;
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
     font-weight: bold;
     line-height: 1.25;
     display: block;
-    font-family: var(--font);
+    font-family: "Quicksilver";
     width: 100%;
     text-align: center;
     text-decoration: none;
