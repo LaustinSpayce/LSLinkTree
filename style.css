@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
 @font-face {
-    font-family: 'Quicksilver';
-    src:  url('quicksilver.woff2') format('woff2'),
-  }
+    font-family: 'quicksilverregular';
+    src: url('quicksilver-webfont.woff2') format('woff2'),
+         url('quicksilver-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 :root {
     --bgColor: #003049;
@@ -53,7 +56,7 @@ body {
     font-weight: bold;
     line-height: 1.25;
     display: block;
-    font-family: "Quicksilver";
+    font-family: "quicksilverregular";
     width: 100%;
     text-align: center;
     text-decoration: none;
